@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+}
+
+div h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headerContainer {
+    background: #CF2B2B;
+    height: 92px;
+    width: 414px;
+    position: fixed;
+    top:0;
+}
+
+
+.headerTitle h1 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 44px;
+    color: #FFFFFF;
+    width: 248px;  
+    margin: 8px auto auto 21px;  
+}
+
+.headerSubtitle h2 {
+    width: 226px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 5px auto auto 21px;
+}
