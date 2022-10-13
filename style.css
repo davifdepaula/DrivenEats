@@ -4,6 +4,8 @@
 
 body {
     background: #E5E5E5;
+    width: 100vw;
+    height: 100vh;
 }
 
 h1 {
@@ -14,17 +16,17 @@ div h2 {
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
-    width: 425px;
-    display: flex;
+main{
+    display: center;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
 }
 
 /* formatação cabeçalho*/ 
 
-.header {
+header {
     height: 92px;
     width: 100%;
     position: fixed;
@@ -38,7 +40,7 @@ div h2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 
@@ -63,8 +65,9 @@ div h2 {
 
 /* formatação do meio da página*/
 
-.midPageContainer{
-    margin: 123px auto 108px 19px;
+.mainPageContainer{
+    margin: 123px auto auto 19px;
+    padding-bottom: 108px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -82,10 +85,12 @@ div h2 {
 }
 
 .menu {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
-    overflow-x: scroll;
+    justify-content: center;
     margin-bottom: 27px;
+    overflow-x: scroll;
+    width: 100%;
 }
 
 .option{
@@ -94,7 +99,7 @@ div h2 {
     flex-direction: column;
     justify-content: center;
     margin-right: 16px;
-    padding: 18px 14px 12px 14px;
+    padding: 18px 14px;
     flex-wrap: wrap;
     width: 172px;
 
@@ -133,13 +138,13 @@ div h2 {
 
 /* formatação do rodapé*/
 
-.footer {
+footer {
     align-items: center;
     background: #FFFFFF;
     bottom: 0px;
     display: flex;
     height: 92px;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     position: fixed;
     left: 0px;
