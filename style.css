@@ -14,13 +14,12 @@ div h2 {
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    align-items: center;
+.container{
+    width: 425px;
     display: flex;
     flex-direction: column;
-    width: 414px;
-    justify-content: center;
-    margin: auto;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /* formatação cabeçalho*/ 
@@ -29,10 +28,11 @@ div h2 {
     height: 92px;
     width: 100%;
     position: fixed;
-    top:0;
-    left: 0;
-    
+    top: 0px;
+    left: 0px;  
+    z-index: 1;
 }
+
 .headerContainer{
     background-color: #CF2B2B;
     display: flex;
@@ -63,24 +63,67 @@ div h2 {
 
 /* formatação do meio da página*/
 
-.midPage{
-    margin: 123px auto auto 19px;
+.midPageContainer{
+    margin: 123px auto 108px 19px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
 
-.midPageContainer{
-    
-}
-
-.midPageContainer h1 {
+.menuTitle h1 {
     font-size: 26px;
     font-weight: 400;
-    width: 250px;
+    width: 250px;    
+}
 
-    
+.menuTitle {
+    margin-bottom: 17px;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 27px;
+}
+
+.option{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 16px;
+    padding: 18px 14px 12px 14px;
+    flex-wrap: wrap;
+    width: 172px;
+
+}
+
+.imagem img{
+    width: 144px;
+    height: 87px;
+    margin-bottom: 12px;
+}
+
+.foodName {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.description {
+    color: #A6A6A6;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.price {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* fim da formatação do meio da página*/
@@ -93,12 +136,14 @@ div h2 {
 .footer {
     align-items: center;
     background: #FFFFFF;
-    bottom: 0;
+    bottom: 0px;
     display: flex;
     height: 92px;
-    justify-content: center;
-    position: fixed;
+    justify-content: flex-start;
     width: 100%;
+    position: fixed;
+    left: 0px;
+    z-index: 1;
 }
 
 .footerContainer {
