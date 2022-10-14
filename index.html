@@ -52,7 +52,7 @@
             </div>
 
             <div class="menu">
-                <div class="option">
+                <div class="option" onclick="makeSelection(); makeCheck(); addCost()">
 
                     <div class="imagem">
                         <img src="./imagens/contrafilecomsalada.jpg" />
@@ -66,14 +66,21 @@
                         Contra filé, Arroz, palmito, alface, tomate, cenoura e cebola
                     </div>
 
-                    <div class="price">
-                        R$ <span class = "paid">29.00</span> 
-                    </div>
-                    
-                </div>                
+                    <div class="cost">
+                        <div class="price">
+                            R$ <span class = "paid">29.00</span> 
+                        </div>
 
+                        <div class="check hidden">
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        </div>
+                        
+                    </div>                        
+                
+                </div> 
+                
                 <div class="option">
-                    
+                
                     <div class="imagem">
                         <img src="./imagens/filedefrango.jpg" />
                     </div>
@@ -142,7 +149,7 @@
             </div>
 
             <div class="menu">
-                <div class="option">
+                <div class="option" onclick="makeSelection(); makeCheck(); addCost()">
 
                     <div class="imagem">
                         <img src="./imagens/coca.jpg" />
@@ -329,6 +336,13 @@
     </div>
 </footer> 
 <!-- fim do rodapé da página -->   
+
+<!-- começo script -->
+<script src="script.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!-- fim script -->
 
 </body>
 </html>

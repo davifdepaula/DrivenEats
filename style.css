@@ -130,13 +130,42 @@ header {
     margin-bottom: 5px;
 }
 
-.price {
+.cost {
+    display: flex;
     color: #000000;
     font-size: 16px;
     font-weight: 400;
     position: absolute;
     bottom: 25px;
 }
+
+.price {
+    padding-right: 65px;
+}
+
+ion-icon {
+    color: #32B72F;
+    border-radius: 50%;
+}
+
+.select {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    margin-right: 16px;
+    min-height: 250px;
+    width: 172px;
+    padding: 18px 14px;
+    position: relative;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+    border-radius: 9px;
+}
+
+
+
 
 /* fim da formatação do meio da página*/
 
@@ -181,3 +210,7 @@ footer {
 }
 
 /* fim formatação do rodapé*/
+
+.hidden {
+    display: none;
+}
