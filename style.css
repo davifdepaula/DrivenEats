@@ -71,13 +71,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .menuTitle h1 {
     font-size: 26px;
     font-weight: 400;
-    width: 250px;    
+    width: 300px;    
 }
 
 .menuTitle {
@@ -87,7 +87,7 @@ header {
 .menu {
     align-items: flex-start;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 27px;
     overflow-x: scroll;
     width: 100%;
@@ -97,12 +97,14 @@ header {
     background: #FFFFFF;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-right: 16px;
-    padding: 18px 14px;
     flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    margin-right: 16px;
+    min-height: 250px;
     width: 172px;
-
+    padding: 18px 14px;
+    position: relative;
 }
 
 .imagem img{
@@ -129,6 +131,8 @@ header {
     color: #000000;
     font-size: 16px;
     font-weight: 400;
+    position: absolute;
+    bottom: 25px;
 }
 
 /* fim da formatação do meio da página*/
