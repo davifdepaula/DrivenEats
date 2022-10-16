@@ -214,6 +214,10 @@ footer {
     color: #FFFFFF;
 }
 
+.footerContainerBackground {
+    background: #32B72F;
+}
+
 /* fim formatação do rodapé*/
 
 .hidden {
