@@ -51,8 +51,9 @@
                 </h1>
             </div>
 
-            <div class="menu">
-                <div class="option" onclick="makeSelection(); makeCheck(); addCost()">
+            <div class="mainCourse menu">
+
+                <div class="option" onclick="selection(this)">
 
                     <div class="imagem">
                         <img src="./imagens/contrafilecomsalada.jpg" />
@@ -73,14 +74,13 @@
 
                         <div class="check hidden">
                             <ion-icon name="checkmark-circle-outline"></ion-icon>
-                        </div>
-                        
+                        </div>                        
                     </div>                        
                 
                 </div> 
                 
-                <div class="option">
-                
+                <div class="option" onclick="selection(this)">
+
                     <div class="imagem">
                         <img src="./imagens/filedefrango.jpg" />
                     </div>
@@ -93,13 +93,18 @@
                         Filé de frango grelhado, acompanhado de arroz, feijão e batata frita.
                     </div>
 
-                    <div class="price">
-                        R$ <span class="paid">33.80</span> 
-                    </div>
+                    <di class="cost">
                     
+                        <div class="price">
+                            R$ <span class = "paid">33.80</span> 
+                        </div>
+
+                        <div class="check hidden">
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        </div>
                 </div>
 
-                <div class="option">
+                <div class="option" onclick="selection(this)">
                     
                     <div class="imagem">
                         <img src="./imagens/espetinho.jpg" />
@@ -113,13 +118,19 @@
                         Espeto Tradicional, acompanhado de arroz, feijão tropeiro, mandioca e vinagrete.
                     </div>
 
-                    <div class="price">
-                        R$ 23,00
-                    </div>
+                    <div class="cost">
+                        <div class="price">
+                            R$ <span class = "paid">23.00</span> 
+                        </div>
+
+                        <div class="check hidden">
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        </div>                        
+                    </div> 
                     
                 </div>
 
-                <div class="option">
+                <div class="option" onclick="selection(this)">
                     
                     <div class="imagem">
                         <img src="./imagens/strogonoff.jpg" />
@@ -133,9 +144,15 @@
                         Strogonoff de frango, acompanhado de arroz e batata palha.
                     </div>
 
-                    <div class="price">
-                        R$ 24.90
-                    </div>
+                    <div class="cost">
+                        <div class="price">
+                            R$ <span class = "paid">24.90</span> 
+                        </div>
+
+                        <div class="check hidden">
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        </div>                        
+                    </div> 
                     
                 </div>                
             </div>    
@@ -148,8 +165,8 @@
                 </h1>
             </div>
 
-            <div class="menu">
-                <div class="option" onclick="makeSelection(); makeCheck(); addCost()">
+            <div class="drink menu">
+                <div class="option" onclick="selection(this)">
 
                     <div class="imagem">
                         <img src="./imagens/coca.jpg" />
@@ -163,13 +180,19 @@
                         Coca-cola lata 350ml
                     </div>
 
-                    <div class="price">
-                        R$ 6.00
-                    </div>
-                    
+                    <div class="cost">
+                        <div class="price">
+                            R$ <span class = "paid">6.00</span> 
+                        </div>
+
+                        <div class="check hidden">
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        </div>
+                        
+                    </div>                     
                 </div>
 
-                <div class="option">
+                <div class="option" onclick="selection(this)">
                     
                     <div class="imagem">
                         <img src="./imagens/pepsi.jpg" />
@@ -183,13 +206,19 @@
                         Pepsi lata 350ml
                     </div>
 
-                    <div class="price">
-                        R$ 2.95
-                    </div>
+                    <div class="cost">
+                        <div class="price">
+                            R$ <span class = "paid">2.95</span> 
+                        </div>
+
+                        <div class="check hidden">
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        </div>                        
+                    </div> 
                     
                 </div>
 
-                <div class="option">
+                <div class="option" onclick="selection(this)">
                     
                     <div class="imagem">
                         <img src="./imagens/suco.jpg" />
@@ -203,13 +232,19 @@
                         Garrafa 300ml 
                     </div>
 
-                    <div class="price">
-                        R$ 3.99
-                    </div>
+                    <div class="cost">
+                        <div class="price">
+                            R$ <span class = "paid">3.99</span> 
+                        </div>
+
+                        <div class="check hidden">
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        </div>                        
+                    </div> 
                     
                 </div>
 
-                <div class="option">
+                <div class="option" onclick="selection(this)">
                     
                     <div class="imagem">
                         <img src="./imagens/cerveja.jpg" />
@@ -223,9 +258,15 @@
                         Pilsen Litrão 
                     </div>
 
-                    <div class="price">
-                        R$ 7.99
-                    </div>
+                    <div class="cost">
+                        <div class="price">
+                            R$ <span class = "paid">7.99</span> 
+                        </div>
+
+                        <div class="check hidden">
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        </div>                        
+                    </div> 
                     
                 </div>
         </div> 
@@ -238,8 +279,8 @@
             </h1>
         </div>
 
-        <div class="menu">
-            <div class="option">
+        <div class="dessert menu">
+            <div class="option" onclick="selection(this)">
 
                 <div class="imagem">
                     <img src="./imagens/bolodecenoura.jpg" />
@@ -253,13 +294,19 @@
                     Bolo de cenoura com cobertura de chocolate.
                 </div>
 
-                <div class="price">
-                    R$ 28.00
-                </div>
+                <div class="cost">
+                    <div class="price">
+                        R$ <span class = "paid">28.00</span> 
+                    </div>
+
+                    <div class="check hidden">
+                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    </div>                        
+                </div> 
                 
             </div>
 
-            <div class="option">
+            <div class="option" onclick="selection(this)">
                 
                 <div class="imagem">
                     <img src="./imagens/brigadeiro.jpg" />
@@ -273,13 +320,19 @@
                     Não deixe de experimentar: 4 deliciosos brigadeiros.
                 </div>
 
-                <div class="price">
-                    R$ 16.90
-                </div>
+                <div class="cost">
+                    <div class="price">
+                        R$ <span class = "paid">16.90</span> 
+                    </div>
+
+                    <div class="check hidden">
+                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    </div>                        
+                </div> 
                 
             </div>
 
-            <div class="option">
+            <div class="option" onclick="selection(this)">
                 
                 <div class="imagem">
                     <img src="./imagens/petitgateau.jpg" />
@@ -293,13 +346,19 @@
                     Caixa de Petit Gateau chocolate com 2 unidades
                 </div>
 
-                <div class="price">
-                    R$ 24.00
-                </div>
+                <div class="cost">
+                    <div class="price">
+                        R$ <span class = "paid">24.80</span> 
+                    </div>
+
+                    <div class="check hidden">
+                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    </div>                        
+                </div> 
                 
             </div>
 
-            <div class="option">
+            <div class="option" onclick="selection(this)">
                 
                 <div class="imagem">
                     <img src="./imagens/cookies.jpg" />
@@ -313,9 +372,15 @@
                     Cookie com recheio de brigadeiro e splits de chocolate.
                 </div>
 
-                <div class="price">
-                    R$ 15.10
-                </div>
+                <div class="cost">
+                    <div class="price">
+                        R$ <span class = "paid">15.10</span> 
+                    </div>
+
+                    <div class="check hidden">
+                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    </div>                        
+                </div> 
                 
             </div>
         </div> 
@@ -326,7 +391,7 @@
 
 <!-- rodapé da página -->
 <footer>
-    <div class="footerContainer">
+    <div class="footerContainer" onclick="getTotal()">
         <div class="footerText">
             Selecione os 3 itens
         </div>
@@ -338,7 +403,8 @@
 <!-- fim do rodapé da página -->   
 
 <!-- começo script -->
-<script src="script.js"></script>
+<script src="script.js">
+</script>
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

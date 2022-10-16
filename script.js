@@ -1,35 +1,35 @@
-function makeSelection(){
-    const element = document.querySelector(".option")
-    if(element.classList.contains("select")){
-        element.classList.remove("select")
-    }
-    else{
-        element.classList.add("select")
+let total = 0
+function selection(element) {
+    if (element.parentNode.classList[0] == "mainCourse"){
+        makeSelection("mainCourse", element)
     }
 
-}
+    else if (element.parentNode.classList[0] == "drink"){
+        makeSelection("drink", element)
+    }
 
-function makeCheck() {
-    const element = document.querySelector(".check")
-    if(element.classList.contains("hidden")){
-        element.classList.remove("hidden")
-    }
-    else{
-        element.classList.add("hidden")
-    }
-}
+    else if (element.parentNode.classList[0] == "dessert"){
+        makeSelection("dessert", element)
+    } 
+};
 
-function addCost() {
-    let valueToPay = 0
-    const element = document.querySelector(".check")
-    if(element.classList.contains("hidden")){
-        const price = document.querySelector(".paid")
-        valueToPay -= Number(price.innerHTML)
-    }
-    else{
-        const price = document.querySelector(".paid")
-        valueToPay += Number(price.innerHTML)
-    }
-return valueToPay
-}
+function makeSelection(parent, element) {
+    const flag = document.querySelector(`.${parent} .select`);
+    if (flag !== null) {
+        flag.classList.remove("select");
+        flag.classList.add("option");
+        flag.querySelector(".check").classList.add("hidden");
+        total -= Number(flag.querySelector(".paid").innerHTML);
+    };
+    element.classList.remove("option")
+    element.classList.add("select");
+    element.querySelector(".check").classList.remove("hidden");
+    total += Number(element.querySelector(".paid").innerHTML); 
+
+};
+
+function getTotal(){
+    console.log(total);
+};
+
 
