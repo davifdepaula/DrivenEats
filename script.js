@@ -24,7 +24,7 @@ function selection(element) {
         const parentClass = document.querySelector(".footerContainer")
         parentClass.classList.add("footerContainerBackground")
         const flag = document.querySelector(".footerText")
-        flag.innerHTML = "fechar pedido"
+        flag.innerHTML = "Fechar pedido"
     }
 };
 
@@ -44,13 +44,24 @@ function makeSelection(parent, element) {
 };
 
 
-function getTotal(element){
+function sendMsg(element){
     if (element.classList.contains("footerContainerBackground")){
-        https://wa.me/5511968374030?text="fala"
-        console.log(food)
-        console.log(drink)
-        console.log(dessert)
-        console.log(total)
+        const fone =  5511968374030
+        const a = document.querySelector(".footerText")
+        const name = prompt("Digite seu nome: ")
+        const address = prompt ("Digite seu endereço: ")
+        let text = `Olá, gostaria de fazer o pedido:
+        - Prato: ${food}
+        - Bebida: ${drink}
+        - Sobremesa: ${dessert}  
+        Total: R$ ${total}  
+        
+        Nome: ${name} 
+        Endereço: ${address}  
+        `
+        text = encodeURIComponent(text) 
+        const url = `https://wa.me/${fone}?text=${text}`
+        a.href = url
     }
 
 };
