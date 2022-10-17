@@ -27,7 +27,7 @@
 
 ## :dart: Sobre ##
 
-Um projeto feit usando HTML, CSS e JavaScript para  implementar o site mobile do DrivenEats, um restaurante especial que entrega seu pedido em 6 minutos.
+Um projeto feito usando HTML, CSS e JavaScript para  implementar o site mobile do DrivenEats, um restaurante especial que entrega seu pedido em 6 minutos.
 
 Para isso, o restaurante só trabalha com um tipo específico de pedido: o combo de Prato+Bebida+Sobremesa.
 
