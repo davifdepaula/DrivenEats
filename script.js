@@ -50,17 +50,11 @@ function sendMsg(element){
         const a = document.querySelector(".footerText")
         const name = prompt("Digite seu nome: ")
         const address = prompt ("Digite seu endereço: ")
-        let text = `Olá, gostaria de fazer o pedido:
-- Prato:  ${food}
-- Bebida:  ${drink}
-- Sobremesa:  ${dessert}  
-        Total: R$ ${total.toFixed(2)}  
-        
-        Nome: ${name} 
-        Endereço: ${address}  
-        `
-        text = encodeURIComponent(text) 
-        const url = `https://wa.me/${fone}?text=${text}`
+        let text = "Olá, gostaria de fazer o pedido:\n" + 
+        "- Prato:" + food + "\n- Bebida:" + drink + "\n- Sobremesa:"
+        + dessert + "\nTotal: R$ " + `${total.toFixed(2)}` 
+        + "\n\nNome: " +name + "\nEndereço: " + address
+        const url = `https://wa.me/${fone}?text=${encodeURIComponent(text)}`
         a.href = url
     }
 
