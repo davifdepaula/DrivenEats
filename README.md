@@ -20,7 +20,7 @@
   <a href="#dart-about">Sobre</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Caracteristicas</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{davifdepaula}}" target="_blank">Author</a>
+  <a href="https://github.com/davifdepaula" target="_blank">Author</a>
 </p>
 
 <br>
@@ -37,7 +37,8 @@ O site permite de forma fácil a escolha do seu combo, enviando em seguida o ped
 
 :heavy_check_mark: Selecionar somente um prato;\
 :heavy_check_mark: Selecionar somente uma bebida;\
-:heavy_check_mark: Selecionar somente uma sobremesa;:heavy_check_mark: Envia o pedido direto para o Whatsapp do restaurante ao clicar em finalizar pedido;
+:heavy_check_mark: Selecionar somente uma sobremesa;\
+:heavy_check_mark: Envia o pedido direto para o Whatsapp do restaurante ao clicar em finalizar pedido;
 
 ## :rocket: Tecnologias ##
 
