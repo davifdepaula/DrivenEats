@@ -46,15 +46,15 @@ function makeSelection(parent, element) {
 
 function sendMsg(element){
     if (element.classList.contains("footerContainerBackground")){
-        const fone =  5511968374030
+        const fone = 5511968374030
         const a = document.querySelector(".footerText")
         const name = prompt("Digite seu nome: ")
         const address = prompt ("Digite seu endereço: ")
         let text = `Olá, gostaria de fazer o pedido:
-        - Prato: ${food}
-        - Bebida: ${drink}
-        - Sobremesa: ${dessert}  
-        Total: R$ ${total}  
+- Prato:  ${food}
+- Bebida:  ${drink}
+- Sobremesa:  ${dessert}  
+        Total: R$ ${total.toFixed(2)}  
         
         Nome: ${name} 
         Endereço: ${address}  
