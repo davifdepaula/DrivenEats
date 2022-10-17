@@ -25,9 +25,9 @@
 
 <br>
 
-## :dart: Sobre##
+## :dart: Sobre ##
 
-Um projeto usando JavaScript implementando o site mobile do DrivenEats, um restaurante especial que entrega seu pedido em 6 minutos.
+Um projeto feit usando HTML, CSS e JavaScript para  implementar o site mobile do DrivenEats, um restaurante especial que entrega seu pedido em 6 minutos.
 
 Para isso, o restaurante só trabalha com um tipo específico de pedido: o combo de Prato+Bebida+Sobremesa.
 
@@ -37,19 +37,19 @@ O site permite de forma fácil a escolha do seu combo, enviando em seguida o ped
 
 :heavy_check_mark: Selecionar somente um prato;\
 :heavy_check_mark: Selecionar somente uma bebida;\
-:heavy_check_mark: Selecionar somente uma sobremesa;
+:heavy_check_mark: Selecionar somente uma sobremesa;:heavy_check_mark: Envia o pedido direto para o Whatsapp do restaurante ao clicar em finalizar pedido;
 
-## :rocket: Technologies ##
+## :rocket: Tecnologias ##
 
-The following tools were used in this project:
+Nesse projeto foram usadas as seguintes tecnologias:
 
-- [HTML]
-- [CSS]
-- [Javascript]
+- HTML
+- CSS
+- Javascript
 
 
 
-Made with :heart: by <a href="https://github.com/{{davifdepaula}}" target="_blank">{{Davi Ferreira de Paula}}</a>
+Made with :heart: by <a href="https://github.com/davifdepaula" target="_blank">Davi Ferreira de Paula</a>
 
 &#xa0;
 
